@@ -1,0 +1,7 @@
+# dvc.yaml
+
+stages:
+  generate_output:
+    cmd: python my_script.py
+    outs:
+    - output.txt

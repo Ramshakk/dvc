@@ -1,0 +1,8 @@
+schema: '2.0'
+stages:
+  generate_output:
+    cmd: python my_script.py
+    outs:
+    - path: output.txt
+      md5: 3416a75f4cea9109507cacd8e2f2aefc
+      size: 2
